@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.step{
+    margin: auto;
+    width: 70%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#add{
+    font-size: x-large;
+    margin-left: 3px;
+}
+
+ol{
+    text-align: left;
+}

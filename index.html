@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="clientLib/awesomplete-gh-pages/awesomplete.css" />
+    <link rel="stylesheet" href="style.css">
+    <script src="clientLib/awesomplete-gh-pages/awesomplete.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Film recommender</title>
+</head>
+<body>
+    <div id="step1" class="step">
+        <h1>Choose three films you like</h1>
+        <br/>
+        <span><input id="autocomplete" class="awesomplete" /><a id="add">+</a></span>
+        <br/>
+        <ol id="selectedFilms"></ol>
+    </div>
+    <div id="step2"style="display:none" class="step">
+        <h1>Films for you</h1>
+        <br/>
+        <ol id="recommendedFilms"></ol>
+    </div>
+</body>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="index.js"></script>
+</html>
