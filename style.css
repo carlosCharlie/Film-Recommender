@@ -1,8 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300;500&display=swap');
+
 *{
     margin:0;
     padding:0;
 }
 
+body{
+    font-family: 'MuseoModerno';
+    background-color: #ffd166;
+    color: #073b4c;
+}
+
+h1{
+    text-align: center;
+    font-family: "MuseoModerno",cursive;
+    font-size: 3em;
+}
 .step{
     margin: auto;
     width: 70%;
@@ -20,4 +33,9 @@
 
 ol{
     text-align: left;
+}
+
+input{
+    border-radius: 5px;
+    border: 2px #073b4c solid;
 }

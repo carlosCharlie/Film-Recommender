@@ -4,6 +4,8 @@ let selectedFilms = [];
 //read the dataset
 const readFilms = () => d3.tsv("http:/localhost:8000/cleanedData.tsv");
 
+
+
 //autocomplete HTMLElement
 const configAutoComplete = (filmNames) => {
     let autocomplete = document.getElementById("autocomplete");
@@ -11,6 +13,7 @@ const configAutoComplete = (filmNames) => {
         list: filmNames
     });
 }
+
 
 //recomendation algorithm given 3 films
 const recommend = (selectedFilms,allFilms,nFilms) => {
@@ -40,6 +43,10 @@ const recommend = (selectedFilms,allFilms,nFilms) => {
     return calculatedFilms.slice(0,nFilms);
 }
 
+
+
+
+//------------MAIN---------------
 
 //select films logic
 document.getElementById("add").onclick = () =>{
